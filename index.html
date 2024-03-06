@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stevan's Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="img/stevansicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"
+        ><img src="img/stevanslogo.png" width="35px" height="35px"
+      /></a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#publication">Publication</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>My Name is <br /><span>Stevan Del Arisandi</span></h1>
+        <a href="#portfolio" class="btn">View My Portfolio</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- Education section start -->
+    <section id="education" class="education">
+      <h2>Education</h2>
+
+      <div class="row">
+        <div class="education-item">
+          <h3>Telkom University Bandung</h3>
+          <h5>2018-2023</h5>
+          <p>
+            Bachelor of Informatics <br />
+            <i>
+              GPA: 3.8/4.0 <br />
+              Final Research Thesis/International Journal Publication: <br />
+              “Performance Analysis of Virtual Learning System: A Case Study of
+              ANGKASA”
+            </i>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="education-item">
+          <h3>Telkom Banjarbaru Vocational High School</h3>
+          <h5>2015-2018</h5>
+          <p>Computer and Network Engineering</p>
+        </div>
+      </div>
+    </section>
+    <!-- Education section end -->
+
+    <!-- Experience section start -->
+    <section id="experience" class="experience">
+      <h2>Experience</h2>
+      <div class="row">
+        <div class="experience-item">
+          <h3>Informatics Faculty Telkom University (Internship)</h3>
+          <h3><i>Back-end Web Developer</i></h3>
+          <h5>July 2021 - August 2021</h5>
+          <ul>
+            <li>
+              Developing a web application that can determine each informatics
+              student's eligibility based on their grades.
+            </li>
+            <li>
+              The web application was developed using Flask, a Python-based Web
+              Framework, Visual Studio Code was used as the main IDE for writing
+              the source code, and MySQL was used as the main DBMS for the web
+              application.
+            </li>
+            <li>
+              GitHub was used as the main platform for collaborative working
+              with the other colleagues in the project.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="experience-item">
+          <h3>Informatics Laboratory Telkom University (Part-time)</h3>
+          <h3><i>Practicum Assistant</i></h3>
+          <h5>February 2021 - June 2021</h5>
+          <ul>
+            <li>
+              Responsible for supervising and guiding the weekly Object Oriented
+              Programming (OOP) practicum session.
+            </li>
+            <li>
+              Responsible for assessing the weekly practicum results for each
+              student.
+            </li>
+            <li>
+              Responsible for helding mentoring sessions for OOP-based final
+              projects at the end of the semester for each group of students.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="experience-item">
+          <h3>KMK Telkom University (Part-time)</h3>
+          <h3>
+            <i>Mentor of Catholic Religious and Ethics Education Class</i>
+          </h3>
+          <h5>September 2020 - December 2020</h5>
+          <ul>
+            <li>Responsible for helding weekly mentoring & sharing session.</li>
+            <li>
+              Responsible for assessing the weekly reflection tasks for each
+              student.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="experience-item">
+          <h3>PT Angkasa Pura I (Internship)</h3>
+          <h3><i>Full-stack Desktop App Developer</i></h3>
+          <h5>January 2017 - March 2017</h5>
+          <ul>
+            <li>
+              Developing a desktop application called "Angkasa Pura I e-Library"
+              for storing company's documents.
+            </li>
+            <li>
+              The application was developed using Borland Delphi 7, pascal-based
+              IDE.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Experience section end -->
+
+    <!-- Portfolio Section start -->
+    <section id="portfolio" class="portfolio">
+      <h2>Portfolio</h2>
+      <h3>My Projects:</h3>
+      <div class="row">
+        <div class="portfolio-card">
+          <h3 class="portfolio-card-title">Angkasa Pura Ⅰ e-Library App</h3>
+          <img
+            src="img/portfolio/AP1_e-Library_Application.gif"
+            alt="AP1 e-Library"
+            class="portfolio-card-img"
+          />
+          <h4 class="portfolio-card">
+            Angkasa Pura Ⅰ e-Library App is a desktop application app used for
+            archiving company's documents. The admin can upload documents by
+            scanning the physical documents using scanner and then save it to
+            PDF format and then they can upload it into e-Library App. All of
+            stored documents will be stored in application's database and
+            employees can access and read uploaded documents via e-Library app.
+            This app was developed using Borland Delphi.
+          </h4>
+        </div>
+        <!-- </div>
+      <div class="row"> -->
+        <div class="portfolio-card">
+          <h3 class="portfolio-card-title">
+            UEFA Champions League Fantasy Game
+          </h3>
+          <img
+            src="img/portfolio/UCL Fantasy Simulation Game.gif"
+            alt="UCL Fantasy Game"
+            class="portfolio-card-img"
+          />
+          <h4 class="portfolio-card">
+            A UEFA Champions League Simulation CLI-based Video Game. UEFA
+            Champions League is an annual club association football competition
+            organised by the Union of European Football Associations (UEFA). It
+            is contested by top-division European clubs, deciding the
+            competition winners through a round robin group stage to qualify for
+            a double-legged knockout format, and a single leg final. There are
+            32 teams are drawn into eight groups of four teams and play each
+            other in a double round-robin system. The eight group winners and
+            eight runners-up proceed to the knockout phase that culminates with
+            the final match.<br />
+            In this game, there are 64 teams from across Europe the players can
+            select. Once the players selected 1 team, they can change the
+            manager name or not and then they can start the tournament
+            simulation. First, the game will select 32 (including the team that
+            the player selected before) teams out of 64 teams randomly, and put
+            it on 8 groups. Each group had 4 teams on it, this step is called
+            "drawing". After the group stage drawing, players will be directed
+            to the "main page", which consists of 5 features: 1.Advance, 2.Data,
+            3.Stats, 4.Restart Game, 5.Exit Game. If the player choose Data they
+            will able to see all the information of 32 participating teams
+            including club name, country, home stadium, manager, the team's UCL
+            titles and which group they are drawn. If the player choose Stats,
+            they will able to see the player's team stats, other teams stats and
+            match stats. If the player choose Advance, the game will simulate
+            the group stage matchday 1. The game will randomly simulate the
+            match score and automatically updated the group stage standings.
+            After 6 matchday group stage matches, if the players ranked 1st or
+            2nd in the group stage standing, the player will advance to the
+            double-legged knockout stage, otherwise the player will be
+            eliminated and the game is over. <br />
+            In the knockout stage, each stage will be randomly drawn to
+            determine which team the player will face. The knockout stage format
+            will be played in 2 legs, there are several conditions for each team
+            to win and advance: by aggregate, away goals, or penalties. This
+            format is applied for Round of 16, Quarter Finals and Semifinal. The
+            final itself will be played in a single match to determine the UEFA
+            Champions League Winner. <br />
+            This game was developed using pascal programming language with 3006
+            lines of source code. Sublime Text was the main IDE used for
+            developing this video game.
+          </h4>
+        </div>
+        <div class="portfolio-card">
+          <h3 class="portfolio-card-title">Theatrix-App</h3>
+          <img
+            src="img/portfolio/Theatrix_Application.gif"
+            alt="Theatrix-App"
+            class="portfolio-card-img"
+          />
+          <h4 class="portfolio-card">
+            Theatrix is a 3rd party app for booking movie tickets at theatre. By
+            using Theatrix, user can book their movie ticket by using the
+            Theatrix-App without having to go to the theatre. The app was
+            developed using Java Programming Language.
+          </h4>
+        </div>
+        <div class="portfolio-card">
+          <h3 class="portfolio-card-title">
+            Italian Language Parser + Lexical Analyzer Program
+          </h3>
+          <img
+            src="img/portfolio/Italiano_Language_Automata.gif"
+            alt="Italian Language Automata"
+            class="portfolio-card-img"
+          />
+          <h4 class="portfolio-card">
+            Italian Language Parser + Lexical Analyzer Program. This program was
+            developed using Python Programming Language. I even do 11 hours live
+            stream coding via YouTube while developing this program: <br />
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/fUCQnpzGfjM?si=fy7nCv3U90vrzqOE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              class="portfolio-card-iframe"
+            ></iframe>
+          </h4>
+        </div>
+        <div class="portfolio-card">
+          <h3 class="portfolio-card-title">PLO Web Application</h3>
+          <img
+            src="img/portfolio/PLO_Web.gif"
+            alt="Web PLO"
+            class="portfolio-card-img"
+          />
+          <h4 class="portfolio-card">
+            Web PLO App is a web application that can determine each informatics
+            Telkom University student's eligibility based on their grades. The
+            web application was developed using Flask, a Python-based Web
+            Framework, Visual Studio Code was used as the main IDE for writing
+            the source code, and MySQL was used as the main DBMS for the web
+            application.
+          </h4>
+        </div>
+        <div class="portfolio-card">
+          <h3 class="portfolio-card-title">
+            Stevan's Shop e-Commerce & Blog WordPress Website
+          </h3>
+          <img
+            src="img/portfolio/Wordpress_StevanShop_eCommerce_and_Blog.gif"
+            alt="Stevan's Shop e-Commerce & Blog Wordpress Website"
+            class="portfolio-card-img"
+          />
+          <h4 class="portfolio-card">
+            This website was my final project while enrolling an independent
+            study program at Zenius Education. The main idea I used for my final
+            project was a fictional action figure online shop website. Not only
+            e-commerce, but this website has a blog feature where I also can
+            write articles and post them on this website. This website was fully
+            developed using WordPress CMS with some plugins such as Woocommerce,
+            Elementor Builder, Custom Login Page Customizer, Yoast SEO, Contact
+            Form, JivoChat, Google Site Kit, etc. This website is also hosted
+            using Niagahoster WordPress Hosting.
+          </h4>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section end -->
+
+    <!-- Publication Section start -->
+
+    <section id="publication" class="publication">
+      <h2>Publication</h2>
+      <h4>
+        In February 2023, I got the privilege to participate in 25th
+        International Conference on Advanced Communications Technology (ICACT)
+        2023, held at Pyeongchang, Gangwon-do, Republic of Korea after my
+        research paper titled "Performance Analysis of Virtual Learning System:
+        A Case Study of ANGKASA" got accepted on December 2022. Later on April
+        2023, my paper was successfully published at IEEE Xplore Digital Library
+        as seen below:
+      </h4>
+      <img
+        src="img/publication/IEEE_XDL.png"
+        alt="Publication Presentation Slide Stevan Del Arisandi"
+        class="publication-img"
+      />
+      <img
+        src="img/publication/Presentation-Publication-Slide-StevanDelArisandi.jpg"
+        alt="Publication Presentation Slide Stevan Del Arisandi"
+        class="publication-img"
+      />
+    </section>
+    <!-- Publication Section end -->
+
+    <!-- Contact Section start -->
+    <footer>
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <h3>These are my social media:</h3>
+        <div class="socials">
+          <a href="https://twitter.com/stevandworkbusy"
+            ><img src="img/twitter_x_logo.png" width="26px" height="26px"
+          /></a>
+          <a href="https://www.linkedin.com/in/stevandelarisandi/"
+            ><img src="img/linkedin_logo.png" width="26px" height="26px"
+          /></a>
+        </div>
+      </section>
+      <!-- Contact Section end -->
+
+      <!-- Footer start -->
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#publication">Publication</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="credit">
+        <p>Created by Stevan Del Arisandi | &copy; 2024</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
